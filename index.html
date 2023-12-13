@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A to do list with local storage </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    
+
+    <div class="container">
+        <div class="form_inner_box"> 
+        <div class="to_do_app"> 
+            <h2> To Do List  <span> <i class="fa-solid fa-list-check"></i> </span> </h2>
+        </div>
+        <form action="" id="form_elements">
+            <div class="form_parent"> 
+                <input type="text" name="input field" id="input_box" placeholder="To Do app">
+                <button type="button" id="btn" onclick="addtoDo()"> ADD </button>
+            </div>
+        </form>
+
+        <div class="todo_list"> 
+            <ul id="list_container">
+                <!-- <li class="">
+                    <i class="fa-regular fa-circle-check unchecked"></i>
+                    <i class="fa-sharp fa-solid fa-circle-check checked"></i>
+                    <span> Task1 </span>  
+                    <span id="delete"> 
+                         <i class="fa-solid fa-xmark"></i>
+                    </span>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</div>
 
     <script src="./index.js"></script>
 </body>

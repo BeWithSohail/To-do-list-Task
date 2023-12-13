@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding-top: 1px;
+}
+.form_inner_box{
+width: 600px;
+background: #fff;
+border-radius: 8px;
+background: #fff;
+margin:200px auto;
+padding: 40px;
+}
+
+.to_do_app{
+
+}
+
+.to_do_app h2{
+    font-size: 16px;
+    color: #1e1717;
+}
+
+.to_do_app h2 span{
+    margin-left: 10px;
+}
+
+.to_do_app h2 span i{
+    
+}
+
+form{margin-top:10px;margin-bottom: 15px;}
+
+.form_parent{
+display: flex;
+}
+.form_parent input{
+    width: 100%;
+    color: #1e1717;
+    padding:10px 20px;
+    border-radius: 20px;
+    border: 1px solid #716e6e;
+    background: #efefef;
+}
+.form_parent button{
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 1px solid #e2500c;
+    background: #e2500c;
+    margin-left: -110px;
+}
+
+.todo_list{
+
+}
+
+.todo_list ul li{/* text-decoration: line-through; */padding: 10px 0;cursor: pointer;}
+
+.todo_list ul li.active{
+    color: #7d7d7d;
+}
+.todo_list ul li i{
+color: #e2500c;
+}
+
+.todo_list ul li i.checked{
+    display: none;
+}
+.todo_list ul li.active i.checked{
+display: inline;
+}
+.todo_list ul li.active i.unchecked{
+display: none;
+}
+.todo_list ul li.active span{
+text-decoration: line-through;
+}
+span#delete{
+    text-align: right;
+    float: right;
+    font-weight: bold;
+}
+
+span#delete:hover i{
+color: #fff;
+background-color: #e2500c;
+padding:5px 5px;
+}
